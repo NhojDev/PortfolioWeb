@@ -689,10 +689,15 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 			width: 100%;
 		}
+			.image.fit:before {
+            	background-image: none; /* Remove the background image */
+				border-radius: 50%;
+        }
 
 			.image.fit img {
 				width: 100%;
 			}
+			
 
 		.image.main {
 			display: block;
